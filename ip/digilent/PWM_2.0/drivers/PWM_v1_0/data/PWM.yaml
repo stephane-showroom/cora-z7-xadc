@@ -1,0 +1,23 @@
+%YAML 1.2
+---
+title: Bindings for Digilent PWM IP
+
+maintainers:
+  - Digilent
+
+type: driver
+
+properties:
+  compatible:
+    OneOf:
+      - items:
+        - enum:
+          - xlnx,PWM-2.0
+          - xlnx,PWM-1.0
+  reg:
+    description: Physical base address and size of the controller register map
+
+required:
+    - compatible
+    - reg
+...
