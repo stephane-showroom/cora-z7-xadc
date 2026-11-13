@@ -24,13 +24,13 @@ hw/*.wdb
 hw/.Xil/
 .Xil/
 
-hw/NA
 hw/hw.cache/
 hw/hw.gen/
 hw/hw.runs/
 hw/hw.sim/
 hw/hw.ip_user_files/
 hw/hw.hw/
+hw/NA
 
 # ==============================================================================
 # Software & Platform Build Outputs (Vitis)
