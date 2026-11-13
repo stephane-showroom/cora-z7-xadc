@@ -1,0 +1,20 @@
+[
+{
+  "directory": "E:/workspace/cora-z7-xadc/soft/build",
+  "command": "E:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IE:/workspace/cora-z7-xadc/soft/src -isystem E:/workspace/cora-z7-xadc/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -isystem E:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem E:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem E:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=E:/workspace/cora-z7-xadc/platform/export/platform/sw/standalone_ps7_cortexa9_0/Xilinx.spec -IE:/workspace/cora-z7-xadc/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\soft.elf.dir\\debounce.c.obj -c E:\\workspace\\cora-z7-xadc\\soft\\src\\debounce.c",
+  "file": "E:\\workspace\\cora-z7-xadc\\soft\\src\\debounce.c",
+  "output": "CMakeFiles\\soft.elf.dir\\debounce.c.obj"
+},
+{
+  "directory": "E:/workspace/cora-z7-xadc/soft/build",
+  "command": "E:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IE:/workspace/cora-z7-xadc/soft/src -isystem E:/workspace/cora-z7-xadc/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -isystem E:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem E:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem E:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=E:/workspace/cora-z7-xadc/platform/export/platform/sw/standalone_ps7_cortexa9_0/Xilinx.spec -IE:/workspace/cora-z7-xadc/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\soft.elf.dir\\main.c.obj -c E:\\workspace\\cora-z7-xadc\\soft\\src\\main.c",
+  "file": "E:\\workspace\\cora-z7-xadc\\soft\\src\\main.c",
+  "output": "CMakeFiles\\soft.elf.dir\\main.c.obj"
+},
+{
+  "directory": "E:/workspace/cora-z7-xadc/soft/build",
+  "command": "E:\\AMDDesignTools\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -IE:/workspace/cora-z7-xadc/soft/src -isystem E:/workspace/cora-z7-xadc/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -isystem E:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem E:/AMDDesignTools/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem E:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=E:/workspace/cora-z7-xadc/platform/export/platform/sw/standalone_ps7_cortexa9_0/Xilinx.spec -IE:/workspace/cora-z7-xadc/platform/export/platform/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\soft.elf.dir\\platform.c.obj -c E:\\workspace\\cora-z7-xadc\\soft\\src\\platform.c",
+  "file": "E:\\workspace\\cora-z7-xadc\\soft\\src\\platform.c",
+  "output": "CMakeFiles\\soft.elf.dir\\platform.c.obj"
+}
+]

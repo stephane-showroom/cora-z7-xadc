@@ -1,0 +1,70 @@
+# ==============================================================================
+# Vitis / Workspace generated files & IDE caches
+# ==============================================================================
+/build
+/export
+/logs
+.log
+.lock
+.bin
+.pdi
+.vitisWorkspace.json
+_ide/
+.rigel_lopper/
+
+# ==============================================================================
+# Vivado Project Files & Caches (hw.xpr is kept)
+# ==============================================================================
+hw/*.jou
+hw/*.log
+hw/*.str
+hw/*.dmp
+hw/*.pb
+hw/*.wdb
+hw/.Xil/
+.Xil/
+
+hw/hw.cache/
+hw/hw.gen/
+hw/hw.runs/
+hw/hw.sim/
+hw/hw.ip_user_files/
+hw/hw.hw/
+
+# ==============================================================================
+# Software & Platform Build Outputs (Vitis)
+# ==============================================================================
+soft/build/
+soft/src/.cache/
+platform/hw/
+platform/sw/
+platform/ps7_cortexa9_0/
+platform/zynq_fsbl/
+platform/logs/
+
+zynq_fsbl/build/
+zynq_fsbl/zynq_fsbl_bsp/
+
+# C object files, libraries, and binaries
+*.o
+*.d
+*.elf
+*.bit
+*.mcs
+*.prm
+*.ltx
+*.dcp
+*.xsa
+*.hdf
+
+# ==============================================================================
+# Exceptions: Essential sources, constraints, block designs, and your app code
+# ==============================================================================
+!hw/hw.xpr
+!hw/constraints/
+!hw/hw.srcs/**/*.bd
+!hw/hw.srcs/**/*.xci
+!hw/hw.srcs/**/*.xdc
+!soft/src/
+!board/
+!*.tcl
