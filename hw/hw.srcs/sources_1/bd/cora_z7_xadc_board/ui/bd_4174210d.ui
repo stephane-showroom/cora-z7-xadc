@@ -1,23 +1,23 @@
 {
    "ActiveEmotionalView":"Default View",
    "Default View_ScaleFactor":"1.30749",
-   "Default View_TopLeft":"-818,-1020",
+   "Default View_TopLeft":"-818,-823",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:24.0
 #  -string -flagsOSRD
 preplace port DDR -pg 1 -lvl 3 -x 740 -y -710 -defaultsOSRD
 preplace port FIXED_IO -pg 1 -lvl 3 -x 740 -y -680 -defaultsOSRD
 preplace port btns_2bits -pg 1 -lvl 3 -x 740 -y -840 -defaultsOSRD
-preplace port Vp_Vn_0 -pg 1 -lvl 0 -x -190 -y -1030 -defaultsOSRD
-preplace port Vaux0_0 -pg 1 -lvl 0 -x -190 -y -1000 -defaultsOSRD
-preplace port Vaux1_0 -pg 1 -lvl 0 -x -190 -y -970 -defaultsOSRD
-preplace port Vaux6_0 -pg 1 -lvl 0 -x -190 -y -910 -defaultsOSRD
-preplace port Vaux5_0 -pg 1 -lvl 0 -x -190 -y -940 -defaultsOSRD
-preplace port Vaux8_0 -pg 1 -lvl 0 -x -190 -y -880 -defaultsOSRD
-preplace port Vaux9_0 -pg 1 -lvl 0 -x -190 -y -850 -defaultsOSRD
-preplace port Vaux12_0 -pg 1 -lvl 0 -x -190 -y -820 -defaultsOSRD
-preplace port Vaux13_0 -pg 1 -lvl 0 -x -190 -y -790 -defaultsOSRD
-preplace port Vaux15_0 -pg 1 -lvl 0 -x -190 -y -760 -defaultsOSRD
+preplace port Vp_Vn_0 -pg 1 -lvl 0 -x -200 -y -1030 -defaultsOSRD
+preplace port Vaux0_0 -pg 1 -lvl 0 -x -200 -y -1000 -defaultsOSRD
+preplace port Vaux1_0 -pg 1 -lvl 0 -x -200 -y -970 -defaultsOSRD
+preplace port Vaux6_0 -pg 1 -lvl 0 -x -200 -y -910 -defaultsOSRD
+preplace port Vaux5_0 -pg 1 -lvl 0 -x -200 -y -940 -defaultsOSRD
+preplace port Vaux8_0 -pg 1 -lvl 0 -x -200 -y -880 -defaultsOSRD
+preplace port Vaux9_0 -pg 1 -lvl 0 -x -200 -y -850 -defaultsOSRD
+preplace port Vaux12_0 -pg 1 -lvl 0 -x -200 -y -820 -defaultsOSRD
+preplace port Vaux13_0 -pg 1 -lvl 0 -x -200 -y -790 -defaultsOSRD
+preplace port Vaux15_0 -pg 1 -lvl 0 -x -200 -y -760 -defaultsOSRD
 preplace portBus pwm_0 -pg 1 -lvl 3 -x 740 -y -1030 -defaultsOSRD
 preplace inst processing_system7_0 -pg 1 -lvl 2 -x 470 -y -650 -defaultsOSRD
 preplace inst axi_interconnect_0 -pg 1 -lvl 2 -x 470 -y -390 -defaultsOSRD
@@ -25,30 +25,30 @@ preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 470 -y -150 -defaultsOSRD
 preplace inst axi_gpio_0 -pg 1 -lvl 2 -x 470 -y -840 -defaultsOSRD
 preplace inst PWM_0 -pg 1 -lvl 2 -x 470 -y -1030 -defaultsOSRD
 preplace inst xadc_wiz_0 -pg 1 -lvl 1 -x 40 -y -840 -defaultsOSRD
-preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 -150 -650 230 -940 680
-preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 2 280 -20 700
+preplace netloc PWM_0_pwm 1 2 1 N -1030
 preplace netloc proc_sys_reset_0_interconnect_aresetn 1 1 2 250 -40 680
 preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 3 -90 -660 240 -30 660
-preplace netloc PWM_0_pwm 1 2 1 N -1030
-preplace netloc processing_system7_0_DDR 1 2 1 N -710
-preplace netloc processing_system7_0_FIXED_IO 1 2 1 700 -690n
-preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 280 -920 660
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 -150 -650 230 -940 680
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 2 280 -20 700
+preplace netloc Vaux0_1 1 0 1 -120 -1000n
+preplace netloc Vaux12_1 1 0 1 -180 -820n
+preplace netloc Vaux13_1 1 0 1 -100 -790n
+preplace netloc Vaux15_1 1 0 1 N -760
+preplace netloc Vaux1_1 1 0 1 -130 -970n
+preplace netloc Vaux5_1 1 0 1 -140 -940n
+preplace netloc Vaux6_1 1 0 1 -150 -910n
+preplace netloc Vaux8_1 1 0 1 -160 -880n
+preplace netloc Vaux9_1 1 0 1 -170 -850n
+preplace netloc Vp_Vn_0_1 1 0 1 -110 -1030n
+preplace netloc axi_gpio_0_GPIO 1 2 1 N -840
 preplace netloc axi_interconnect_0_M00_AXI 1 0 3 -90 -1020 170J -950 690
 preplace netloc axi_interconnect_0_M01_AXI 1 1 2 260 -50 690
 preplace netloc axi_interconnect_0_M02_AXI 1 1 2 270 -930 670
-preplace netloc axi_gpio_0_GPIO 1 2 1 N -840
-preplace netloc Vp_Vn_0_1 1 0 1 -100 -1030n
-preplace netloc Vaux0_1 1 0 1 -110 -1000n
-preplace netloc Vaux1_1 1 0 1 -120 -970n
-preplace netloc Vaux6_1 1 0 1 -140 -910n
-preplace netloc Vaux5_1 1 0 1 -130 -940n
-preplace netloc Vaux8_1 1 0 1 -150 -880n
-preplace netloc Vaux9_1 1 0 1 -160 -850n
-preplace netloc Vaux12_1 1 0 1 -170 -820n
-preplace netloc Vaux13_1 1 0 1 -90 -790n
-preplace netloc Vaux15_1 1 0 1 N -760
-levelinfo -pg 1 -190 40 470 740
-pagesize -pg 1 -db -bbox -sgen -300 -1110 870 200
+preplace netloc processing_system7_0_DDR 1 2 1 N -710
+preplace netloc processing_system7_0_FIXED_IO 1 2 1 700 -690n
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 280 -920 660
+levelinfo -pg 1 -200 40 470 740
+pagesize -pg 1 -db -bbox -sgen -310 -1110 870 200
 "
 }
-
+0

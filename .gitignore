@@ -11,7 +11,7 @@
 .vitisWorkspace.json
 _ide/
 .rigel_lopper/
-
+*.logfile
 # ==============================================================================
 # Vivado Project Files & Caches (hw.xpr is kept)
 # ==============================================================================
@@ -24,6 +24,7 @@ hw/*.wdb
 hw/.Xil/
 .Xil/
 
+hw/NA
 hw/hw.cache/
 hw/hw.gen/
 hw/hw.runs/
