@@ -207,25 +207,6 @@
           }
         }
       },
-      "btns_2bits": {
-        "mode": "Master",
-        "vlnv_bus_definition": "xilinx.com:interface:gpio:1.0",
-        "vlnv": "xilinx.com:interface:gpio_rtl:1.0",
-        "hdl_attributes": {
-          "LOCKED": {
-            "value": "FALSE",
-            "value_src": "default"
-          }
-        },
-        "port_maps": {
-          "TRI_I": {
-            "physical_name": "btns_2bits_tri_i",
-            "direction": "I",
-            "left": "1",
-            "right": "0"
-          }
-        }
-      },
       "Vp_Vn_0": {
         "mode": "Slave",
         "vlnv_bus_definition": "xilinx.com:interface:diff_analog_io:1.0",
@@ -433,6 +414,25 @@
           "V_P": {
             "physical_name": "Vaux15_0_v_p",
             "direction": "I"
+          }
+        }
+      },
+      "btns_2bits": {
+        "mode": "Master",
+        "vlnv_bus_definition": "xilinx.com:interface:gpio:1.0",
+        "vlnv": "xilinx.com:interface:gpio_rtl:1.0",
+        "hdl_attributes": {
+          "LOCKED": {
+            "value": "FALSE",
+            "value_src": "default"
+          }
+        },
+        "port_maps": {
+          "TRI_I": {
+            "physical_name": "btns_2bits_tri_i",
+            "direction": "I",
+            "left": "1",
+            "right": "0"
           }
         }
       }
